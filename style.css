@@ -1,8 +1,8 @@
 @font-face {
-    font-family: "Robotoslab";
-    src: url("../fonts/Robotoslabbold.svg#Robotoslabbold") format("svg"),
-         url("../fonts/Robotoslabbold.ttf") format("truetype"),
-         url("../fonts/Robotoslabbold.woff") format("woff");
+    font-family: 'Robotoslab';
+    src: url('../fonts/Robotoslabbold.svg#Robotoslabbold') format("svg"),
+         url('../fonts/Robotoslabbold.ttf') format("truetype"),
+         url('../fonts/Robotoslabbold.woff') format("woff");
     font-weight: normal;
     font-style: normal;
 }
