@@ -1,0 +1,105 @@
+.header{
+    background: url(../img/bg.png) no-repeat;
+    height: 850px;
+}
+
+header{
+    height: 133;
+}
+
+.logo{
+    float: left;
+    width: 226px;
+    height: 113px;
+}
+
+.search input, button{
+    background: transparent;
+    border: none;
+    display: inline-flex;
+}
+
+
+.search button{
+    float: right;
+}
+
+.search{
+    width: 350px;
+    height: 29px;
+    float: right;
+}
+
+.search input {
+    outline:none;
+
+}
+
+.search, .logo{
+    justify-content: space-around; 
+    display: inline-block;
+}
+
+.menu{
+float: right;
+font-size: 18px;
+} 
+
+.complex_list{
+    display: flex;
+}
+
+.complex_list li a {
+    text-decoration: none;
+    margin: 10px;
+    color: #324950;
+}
+
+.wrapper{
+    max-width: 1115px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title{
+    position: relative;
+    width: 804px;
+    height: 183px;
+    margin: 0 auto;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.but_read{
+    width: 160px;
+    height: 55px;
+    padding: 16px, 31px, 16px, 31px;
+    margin-top: 60px;
+    color: #fff;
+    background-color: #57984C;
+    
+}
+
+.title button:hover {
+    background-color: #67b15a;
+    transition: all 0.3s ease;
+}
+
+.title__text{
+    font-family: 'Robotoslabbold' ;
+    text-align: center;
+    font-size: 48px;
+    color: #735440;
+    
+}
+
+.line{
+    position: absolute;
+    width: 300px;
+    height: 0px;
+    left: 1220px;
+    top: 20px;
+    border: 1px solid #324950;
+}
+
+

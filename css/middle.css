@@ -1,0 +1,76 @@
+.products{
+    background-color: white;
+    padding-top: 48px;
+    height: 190px;
+}
+.prod_slide{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.products img{
+    width: 60px;
+    height: 60px;
+
+}
+.products p{
+    margin-top: 20px;
+}
+
+.wrapper{
+    max-width: 1115px;
+    width: 100%;
+    margin: 0 auto;
+}
+.vision{
+   
+    background: url("../img/Uni.png") no-repeat;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+
+.title_vis h1{
+    display: flex;
+    color: black;
+    margin-top: 95px;
+}
+.visimg img {
+    width: 570px;
+    height: 550px;
+}
+
+.activ{
+    height: 640px;
+    background-color: #ededed;
+    margin-top: 100px;
+}
+.activ{
+    font-size: 64px;
+    color: #324950;
+    padding-top: 70px;
+    text-align: center;
+    font-weight: 700;
+}
+.unimg{
+    margin-top: -45px;
+}
+.row{
+    display: flex;
+    text-align: center;
+}
+.colum{
+    flex: 0 0 33%;
+    font-size: 24px;
+    color: #57984C;
+}
+.colum .exam{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #324950;
+}
