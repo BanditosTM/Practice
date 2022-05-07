@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Robotoslabbold";
+    font-family: "Robotoslab";
     src: url("../fonts/Robotoslabbold.svg#Robotoslabbold") format("svg"),
          url("../fonts/Robotoslabbold.ttf") format("truetype"),
          url("../fonts/Robotoslabbold.woff") format("woff");
@@ -18,12 +18,12 @@
 
 
 body {
-    font-family: 'Robotoslabbold';
+    font-family: 'Robotoslab';
     background-color: #f7f7f7;
 }
 
 h1, h2, h3 {
-    font-family: 'Robotoslabbold';
+    font-family: 'Robotoslab';
 }
 
 li{
