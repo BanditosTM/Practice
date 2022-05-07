@@ -34,6 +34,7 @@
 .footer_menu {
     display: flex;
     justify-content: center;
+    font-family: "Robotoslab";
 }
 
 footer {

@@ -77,7 +77,7 @@ font-size: 18px;
     margin-top: 60px;
     color: #fff;
     background-color: #57984C;
-    
+    font-family: 'Roboto';
 }
 
 .title button:hover {
@@ -86,7 +86,7 @@ font-size: 18px;
 }
 
 .title__text{
-    font-family: 'Robotoslabbold' ;
+    font-family: 'Robotoslab' ;
     text-align: center;
     font-size: 48px;
     color: #735440;
@@ -95,9 +95,9 @@ font-size: 18px;
 
 .line{
     position: absolute;
-    width: 300px;
+    width: 350px;
     height: 0px;
-    left: 1220px;
+    left: 1165px;
     top: 20px;
     border: 1px solid #324950;
 }

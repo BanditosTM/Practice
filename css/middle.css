@@ -2,6 +2,7 @@
     background-color: white;
     padding-top: 48px;
     height: 190px;
+    font-family: 'Roboto';
 }
 .prod_slide{
     justify-content: center;
@@ -34,11 +35,20 @@
     margin-top: 20px;
 }
 
-.title_vis h1{
+.title_vis p{
+    margin-top: 95px;
+    margin-bottom: 0px;
+    font-size: 64px;
     display: flex;
     color: black;
     margin-top: 95px;
 }
+
+.text_vis p{
+    font-size: 20px;
+    
+}
+
 .visimg img {
     width: 570px;
     height: 550px;
@@ -59,10 +69,7 @@
 .unimg{
     margin-top: -45px;
 }
-.row{
-    display: flex;
-    text-align: center;
-}
+
 .colum{
     flex: 0 0 33%;
     font-size: 24px;
