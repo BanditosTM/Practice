@@ -18,12 +18,8 @@
 
 
 body {
-    font-family: 'RotondaBold'; 
+    /* font-family: 'RotondaBold';  */
     background-color: #fcf0f0;
-}
-
-h1, h2, h3 {
-    font-family: "RotondaBold";
 }
 
 li{

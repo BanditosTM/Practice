@@ -45,6 +45,7 @@ header{
 }
 
 .menu{
+    font-family: 'RotondaBold';
     float: right;
     font-size: 18px;
     margin-top: -50px;
@@ -69,22 +70,13 @@ header{
     border: 1px solid #324950;
 }
 
-.but_read{
-    width: 160px;
-    height: 55px;
-    padding: 16px, 31px, 16px, 31px;
-    margin-top: 60px;
-    color: #fff;
-    background-color: #57984C;
-    font-family: 'Roboto';
-}
-
 .tomatimg{
 
     background-position: center;
 }
 
 .title_text{
+    font-family: 'RotondaBold';
     margin-top: 51px;
     font-size: 44px;
     color: #324950;
@@ -113,7 +105,7 @@ header{
     margin: 33px auto 47px auto;
     font-size: 64px;
     color: #324950;
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: left;
     font-weight: 700;
 }
@@ -162,3 +154,4 @@ header{
     color:#57984C;
     font-size: 15px;
 }
+
