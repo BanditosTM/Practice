@@ -81,3 +81,13 @@
     font-weight: 400;
     color: #324950;
 }
+
+.colum a{
+    color: #57984C;
+
+}
+
+.colum a:hover{
+    text-decoration: none;
+    color:#57984C;
+}

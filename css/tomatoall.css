@@ -1,0 +1,164 @@
+.wrapper{
+    max-width: 1115px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    background: #FFFFFF;
+}
+
+header{
+    height: 133px;
+}
+
+.logo{
+    float: left;
+    width: 166px;
+    height: 83px;
+}
+
+.search input, button{
+    background: transparent;
+    border: none;
+    display: inline-flex;
+}
+
+
+.search button{
+    float: right;
+}
+
+.search{
+    width: 350px;
+    height: 29px;
+    float: right;
+}
+
+.search input {
+    outline:none;
+}
+
+.search, .logo{
+    justify-content: space-around; 
+    display: inline-block;
+}
+
+.menu{
+    float: right;
+    font-size: 18px;
+    margin-top: -50px;
+} 
+
+.complex_list{
+    display: flex;
+}
+
+.complex_list li a {
+    text-decoration: none;
+    margin: 10px;
+    color: #324950;
+}
+
+.line{
+    position: absolute;
+    width: 350px;
+    height: 0px;
+    left: 1165px;
+    top: 20px;
+    border: 1px solid #324950;
+}
+
+.but_read{
+    width: 160px;
+    height: 55px;
+    padding: 16px, 31px, 16px, 31px;
+    margin-top: 60px;
+    color: #fff;
+    background-color: #57984C;
+    font-family: 'Roboto';
+}
+
+.tomatimg{
+
+    background-position: center;
+}
+
+.title_text{
+    margin-top: 51px;
+    font-size: 44px;
+    color: #324950;
+}
+
+.title_img{
+    margin-top: 40px;
+}
+
+.main_text{
+    margin-top: 40px;
+    font-size: 17px;
+    color: #324950;
+}
+
+.line2{
+    border-left: 4px solid #EB5757;
+    padding-left: 26px;
+    font-size: 17px;
+}
+
+.activ{
+    height: 450px;
+    width: 1152px;
+    background-color: white;
+    margin: 33px auto 47px auto;
+    font-size: 64px;
+    color: #324950;
+    padding-top: 50px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.colum{
+    flex: 0 0 33%;
+    font-size: 24px;
+    color: #324950;
+
+}
+
+.colum .exam{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #324950;
+}
+.prodTomat {
+    display: grid;
+    object-fit: contain;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(3, 321px);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    object-fit: contain;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.prodTomat div {
+    text-align: center;
+    background-color: white;
+}
+
+.prodTomat p {
+    height: 50px;
+    z-index: 1;
+}
+
+.prodTomat img {
+    z-index: 1;
+}
+
+.prodTomat a {
+    font-family: 'RotondaBold';
+    color:#57984C;
+    font-size: 15px;
+}

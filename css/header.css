@@ -42,6 +42,7 @@ header{
 .menu{
 float: right;
 font-size: 18px;
+margin-top: -50px;
 } 
 
 .complex_list{
@@ -85,7 +86,7 @@ font-size: 18px;
 }
 
 .title__text{
-    font-family: 'Robotoslab' ;
+    font-family: 'RotondaBold' ;
     text-align: center;
     font-size: 48px;
     color: #735440;
