@@ -44,3 +44,6 @@ footer {
     font-size: 14px;
     padding: 10px 0;
 }
+.footer_first li{
+        list-style-type: none;
+    } 

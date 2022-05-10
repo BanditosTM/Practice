@@ -1,0 +1,138 @@
+.wrapper{
+    max-width: 1115px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    background: #FFFFFF;
+}
+
+header{
+    height: 133px;
+}
+
+.logo{
+    float: left;
+    width: 166px;
+    height: 83px;
+}
+
+.search input, button{
+    background: transparent;
+    border: none;
+    display: inline-flex;
+}
+
+
+.search button{
+    float: right;
+}
+
+.search{
+    width: 350px;
+    height: 29px;
+    float: right;
+}
+
+.search input {
+    outline:none;
+}
+
+.search, .logo{
+    justify-content: space-around; 
+    display: inline-block;
+}
+
+.menu{
+    font-family: 'RotondaBold';
+    float: right;
+    font-size: 18px;
+    margin-top: -50px;
+} 
+
+.menu li{
+    list-style-type: none;
+}
+
+.complex_list{
+    display: flex;
+}
+
+.complex_list li a {
+    text-decoration: none;
+    margin: 10px;
+    color: #324950;
+}
+
+.line{
+    position: absolute;
+    width: 350px;
+    height: 0px;
+    left: 1165px;
+    top: 20px;
+    border: 1px solid #324950;
+}
+
+.return{
+    margin-top: 18px;
+    border-left: 15px;
+}
+
+.return a, a:hover{
+    text-decoration: none;
+    color:#57984C;
+}
+.xxx{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+h2, h3{
+    font-family: "RotondaBold";
+    color: #57984C;
+}
+h3{
+    font-size: 20px;
+}
+.high_text{
+
+    margin-left: 23px;
+    font-size: 30px;
+    color: #CF2333;
+}
+.high_img{
+    margin-bottom: 40px;
+}
+
+.text_block li, b, p{
+    font-family: "RotondaBold";
+    font-size: 17px;
+}
+
+.text_block li::marker{
+    list-style-type:disc;
+    color: #57984C;
+}
+
+.text_block ul{
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.download{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-bottom: 41px;
+
+}
+.download button{
+    outline: none;
+} 
+
+
+.middle{
+    background: url("../img/tomatobg.svg") no-repeat center;
+    height: 1050px;
+}
+
