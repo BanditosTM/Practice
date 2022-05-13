@@ -1,0 +1,178 @@
+header{
+    background: white;
+    padding: 17px 0;
+}
+
+.photo{
+    height: 480px;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.logo{
+    float: left;
+    width: 226px;
+    height: 113px;
+}
+
+.search input, button{
+    background: transparent;
+    border: none;
+    display: inline-flex;
+}
+
+
+.search button{
+    float: right;
+}
+
+.search{
+    border-bottom: 1px solid black;
+    width: 350px;
+    height: 29px;
+    float: right;
+}
+
+.search input {
+    outline:none;
+}
+
+.search, .logo{
+    justify-content: space-around; 
+    display: inline-block;
+}
+
+.menu{
+float: right;
+font-size: 18px;
+margin-top: -50px;
+} 
+
+.complex_list{
+    display: flex;
+}
+
+.complex_list li a {
+    text-decoration: none;
+    margin: 10px;
+    color: #324950;
+}
+
+.wrapper{
+    max-width: 1115px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title{
+    position: relative;
+    width: 804px;
+    height: 183px;
+    margin: 0 auto;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.but_read{
+    width: 160px;
+    height: 55px;
+    padding: 16px, 31px, 16px, 31px;
+    margin-top: 60px;
+    color: #fff;
+    background-color: #57984C;
+    font-family: 'Roboto';
+}
+
+.title button:hover {
+    background-color: #67b15a;
+    transition: all 0.3s ease;
+}
+
+.title__text{
+    font-family: 'RotondaBold' ;
+    text-align: center;
+    font-size: 48px;
+    color: #735440;
+    
+}
+
+.xxx{
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.text_p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #324950;
+    font-size: 17px;
+}
+
+.input_p{
+    width: 350px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+}
+
+.data_p{
+    width: 635px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+}
+
+.text_area{
+    width: 633.9px;
+    height: 390.75px;
+    background: #FFFFFF;
+    order: 1px solid #DADADA;
+    border-radius: 10px;
+}
+
+.send_mes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.send_mes button{
+    outline: none;
+}
+
+.send_mes input{
+    width: 225px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+}
+
+.bot_but{
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #FFFFFF;
+}
+
+.text_bot{
+    text-align: center;
+    font-size: 17px;
+    color: #324950;
+}
+.text_bot a{
+    text-decoration: none;
+    color: #57984c;
+}
+.Address{
+    color: #57984c;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.text_bot p{
+    margin-bottom: 5px;
+}
