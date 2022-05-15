@@ -9,7 +9,7 @@
 }
 
 header{
-    height: 133px;
+    min-height: 133px;
 }
 
 .logo{
@@ -30,6 +30,7 @@ header{
 }
 
 .search{
+    border-bottom: 1px solid black;
     width: 350px;
     height: 29px;
     float: right;
@@ -44,16 +45,17 @@ header{
     display: inline-block;
 }
 
-.menu{
+/* .menu{
     font-family: 'RotondaBold';
     float: right;
     font-size: 18px;
     margin-top: -50px;
-} 
+}  */
 
 .complex_list{
     display: flex;
 }
+
 
 .complex_list li a {
     text-decoration: none;
@@ -61,18 +63,10 @@ header{
     color: #324950;
 }
 
-.line{
-    position: absolute;
-    width: 350px;
-    height: 0px;
-    left: 1165px;
-    top: 20px;
-    border: 1px solid #324950;
-}
 
 .tomatimg{
-
-    background-position: center;
+    height: 480px;
+    background: url(../img/TomatoAll.png) center center/cover no-repeat;
 }
 
 .title_text{
@@ -99,7 +93,7 @@ header{
 }
 
 .activ{
-    height: 450px;
+    min-height: 450px;
     width: 1152px;
     background-color: white;
     margin: 33px auto 47px auto;
@@ -111,7 +105,6 @@ header{
 }
 
 .colum{
-    flex: 0 0 33%;
     font-size: 24px;
     color: #324950;
 
@@ -122,6 +115,10 @@ header{
     font-size: 18px;
     font-weight: 400;
     color: #324950;
+}
+
+hr{
+    background-color: #324950
 }
 .prodTomat {
     display: grid;
@@ -135,23 +132,110 @@ header{
     padding-bottom: 50px;
 }
 
-.prodTomat div {
-    text-align: center;
+.wh_bg{
+    width: 350px;
+    height: 69px;
     background-color: white;
+    margin-bottom: 30px;
+    padding: 9px 0;
+    color: #57984C;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
 }
 
-.prodTomat p {
-    height: 50px;
-    z-index: 1;
+
+.menu{
+    margin-left: auto;
 }
 
-.prodTomat img {
-    z-index: 1;
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+.logo{
+    margin-right: 50px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
 }
 
-.prodTomat a {
-    font-family: 'RotondaBold';
-    color:#57984C;
-    font-size: 15px;
+#toggler{
+    visibility: hidden;
+}
+/* #toggler,
+.navbar label{
+    display: none;
+} */
+@media screen and 
+(max-width: 790px){
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .list{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .navbar label{
+        display: inline-flex;
+        align-items :center;
+        cursor: pointer;
+    }
+    #toggler{
+        visibility: visible;
+    }
+    
+     #toggler:checked ~ .menu{
+         
+        background-color: #324950;
+        max-height: 100%;
+    } 
+    .logo {
+        margin-bottom: 20px;
+    }
+    .title{
+        padding: 10px;
+    }
 }
 
+@media (max-width: 590px){
+    .logo, .search{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .search {
+        margin-top: 20px;
+        
+    }
+}
+
+
+@media (max-width:767px){
+    .inf_tomat, .title__text {
+        text-align: center;
+    }
+    .crosses {
+        display: flex;
+        justify-content: center;
+    }
+    .activ{
+        padding-top: 55px;
+        padding-bottom: 55px;
+        width: 100%;
+    } 
+}

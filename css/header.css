@@ -1,5 +1,5 @@
 .header{
-    background: url(../img/bg.png) no-repeat;
+    background: url(../img/bg.png) no-repeat center;
     height: 850px;
 }
 
@@ -16,7 +16,6 @@ header{
 .search input, button{
     background: transparent;
     border: none;
-    display: inline-flex;
 }
 
 
@@ -25,6 +24,7 @@ header{
 }
 
 .search{
+    border-bottom: 1px solid black;
     width: 350px;
     height: 29px;
     float: right;
@@ -39,11 +39,11 @@ header{
     display: inline-block;
 }
 
-.menu{
-float: right;
-font-size: 18px;
-margin-top: -50px;
-} 
+/* .menu{
+    float: right;
+    font-size: 18px;
+    margin-top: -50px;
+}  */
 
 .complex_list{
     display: flex;
@@ -61,23 +61,34 @@ margin-top: -50px;
     margin: 0 auto;
 }
 
-.title{
+/* .title{
     position: relative;
     width: 804px;
     height: 183px;
     margin: 0 auto;
     margin-top: 250px;
     text-align: center;
+} */
+
+
+.title {
+    padding: 230px 0 300px 0;
 }
 
 .but_read{
     width: 160px;
     height: 55px;
-    padding: 16px, 31px, 16px, 31px;
     margin-top: 60px;
+    font-size: 16px;
     color: #fff;
+    border: none;
     background-color: #57984C;
     font-family: 'Roboto';
+}
+
+.but_read{
+
+padding: 20px, 30px;
 }
 
 .title button:hover {
@@ -103,3 +114,76 @@ margin-top: -50px;
 }
 
 
+.menu{
+    margin-left: auto;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+.logo{
+    margin-right: 50px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+#toggler{
+    visibility: hidden;
+}
+/* #toggler,
+.navbar label{
+    display: none;
+} */
+@media screen and 
+(max-width: 790px){
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .list{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .navbar label{
+        display: inline-flex;
+        align-items :center;
+        cursor: pointer;
+    }
+    #toggler{
+        visibility: visible;
+    }
+    
+     #toggler:checked ~ .menu{
+         
+        background-color: #324950;
+        max-height: 100%;
+    } 
+    .logo {
+        margin-bottom: 10px;
+    }
+    .title{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 590px){
+    .logo, .search{
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+}

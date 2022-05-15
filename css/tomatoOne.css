@@ -9,7 +9,7 @@
 }
 
 header{
-    height: 133px;
+    min-height: 133px;
 }
 
 .logo{
@@ -30,6 +30,7 @@ header{
 }
 
 .search{
+    border-bottom: 1px solid black;
     width: 350px;
     height: 29px;
     float: right;
@@ -65,14 +66,6 @@ header{
     color: #324950;
 }
 
-.line{
-    position: absolute;
-    width: 350px;
-    height: 0px;
-    left: 1165px;
-    top: 20px;
-    border: 1px solid #324950;
-}
 
 .return{
     margin-top: 18px;
@@ -133,6 +126,107 @@ h3{
 
 .middle{
     background: url("../img/tomatobg.svg") no-repeat center;
-    height: 1050px;
+    min-height: 1050px;
 }
 
+
+
+@media  (max-width: 1024px){
+    .tomatoimg img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.menu{
+    margin-left: auto;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+.logo{
+    margin-right: 50px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+#toggler{
+    visibility: hidden;
+}
+/* #toggler,
+.navbar label{
+    display: none;
+} */
+
+
+
+
+@media screen and 
+(max-width: 790px){
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .list{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .navbar label{
+        display: inline-flex;
+        align-items :center;
+        cursor: pointer;
+    }
+    #toggler{
+        visibility: visible;
+    }
+    
+     #toggler:checked ~ .menu{
+         margin-top: 10px;
+        background-color: #324950;
+        max-height: 100%;
+    } 
+    .logo {
+        margin-bottom: 10px;
+    }
+    .title{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 590px){
+    .logo, .search{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 991px){
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .search{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

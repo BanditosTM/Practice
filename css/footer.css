@@ -1,3 +1,11 @@
+footer {
+    background-color: #324950;
+    color: #B9B9B9;
+    font-family: 'Roboto';
+    font-size: 14px;
+    padding: 10px 0;
+}
+
 .footer_first {
     background-color: #2D3F45;
     padding-top: 5px;
@@ -37,13 +45,26 @@
     font-family: 'RotondaBold';
 }
 
-footer {
-    background-color: #324950;
-    color: #B9B9B9;
-    font-family: 'Roboto';
-    font-size: 14px;
-    padding: 10px 0;
-}
+
 .footer_first li{
         list-style-type: none;
-    } 
+} 
+
+
+@media (max-width: 1060px){
+    .footer_link {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 990px){
+    .footer_link{
+        margin-bottom: 5px;
+    }
+    .footer_menu{
+        margin-left: -20px;
+        display: block;
+        text-align: center;
+    }
+}
+

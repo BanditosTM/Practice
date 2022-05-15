@@ -15,29 +15,35 @@
     <header class="header">
         <div class="wrapper">
             <div class="row">
-                    <div logo="logo">
-                        <img src="./img/Logo.png" alt="Logo">
-                    </div>
-                    <div class="search ml-auto">
-                        <input type="text" placeholder="Search" name="search">
-                        <button type="submit"><img src="./img/Vector.png" alt=""></button>
-                    </div>
+                <div class="logo">
+                    <img src="./img/Logo.png" alt="Logo">
+                </div>
+                <div class="search ml-auto">
+                    <input type="text" placeholder="Search" name="search">
+                    <button type="submit"><img src="./img/Vector.png" alt=""></button>
+                </div>
+        
             </div>
+
+        <nav class="navbar">
+            <input type="checkbox" id="toggler">
+            <label for="toggler"><i class="ri-menu-line"></i></label>
             <div class="menu">
-                <ul class="complex_list">
-                    <li><a href="index.html">Home</a></li>
+                <ul class="list">
+                    <li><a href="./index.html">Home</a></li>
                     <li><a href="#">Company Profile</a></li>
-                    <li><a href="#">Products</a></li>
+                    <li><a href="./tomatoAll.html">Products</a></li>
                     <li><a href="#">Services</a></li>
-                    <li><a href="#">R&D</a></li>
-                    <li><a href="contactUs.html">Contact</a></li>
+                    <li><a href="#">R & D</a></li>
+                    <li><a href="./contactus.html">Contact</a></li>
                 </ul>
             </div>
+        </nav>
         </div>
     </header>
 
 <section class="photo">
-    <img src="./img/CUBG.png" alt="">
+    <div></div>
 </section>
 
 <section class="body">
@@ -96,10 +102,11 @@
                 </div>
                 <div>
                     <p class="text_p">Please type this code</p>
-                    <div class="send_mes">
-                        <img src="./img/qrcode.svg" alt="">
-                        <input type="text">
-                        <button><img src="./img/button.png" alt=""></button>
+                    <div class="row">
+                        <div class="send_mes col-lg-2"><img src="./img/qrcode.svg" alt=""></div>
+                        <div class="send_mes col-lg-5"><input type="text"></div>
+                        <div class="send_mes col-lg-5"><button><img src="./img/button.png" alt=""></button></div>
+                        
                     </div>
                 </div>
             </div>
