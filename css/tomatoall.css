@@ -66,7 +66,7 @@ header{
 
 .tomatimg{
     height: 480px;
-    background: url(../img/TomatoAll.png) center center/cover no-repeat;
+    background: url(../img/potato/potatobg.png) center center/cover no-repeat;
 }
 
 .title_text{
@@ -133,8 +133,8 @@ hr{
 }
 
 .wh_bg{
-    width: 350px;
-    height: 69px;
+    width: 259px;
+    height: 100px;
     background-color: white;
     margin-bottom: 30px;
     padding: 9px 0;
