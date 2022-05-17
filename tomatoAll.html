@@ -97,18 +97,20 @@
 
 
 
-<section id= "article" class="products">
+<section class="products">
     <div class="wrapper">
         <p class="line2"> Agridera operates through international and local distributers around the world. </p>
         <div class="container">
-            <div class="row">
+            <div class="row pot" >
                 <div class="col-xl-4 col-sm-6" v-if="products" v-for="p in products">
-                    <img :src="'./img/potato/'+p.image" :alt="'tangerine'+p.id">
-                    <div class="wh_bg">
-                        <b>{{p.title}}</b>
-                        <br>
-                        {{p.short_text}}
-                    </div>
+                    <a :href="'tomatoOne.html#'+p.id">
+                        <img :src="'./img/potato/'+p.image" :alt="'tangerine'+p.id">
+                        <div class="wh_bg">
+                            <b>{{p.title}}</b>
+                            <br>
+                            {{p.short_text}}
+                        </div>
+                    </a>
                 </div>
             </div>
     
