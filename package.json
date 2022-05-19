@@ -1,0 +1,22 @@
+{
+  "name": "sait",
+  "version": "1.0.0",
+  "description": "sait",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/BanditosTM/Practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/BanditosTM/Practice/issues"
+  },
+  "homepage": "https://gitlab.com/BanditosTM/Practice#readme",
+  "dependencies": {
+    "http-server": "^14.1.0"
+  }
+}
