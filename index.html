@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/middle.css">
+    <link rel="manifest" href="manifest.json">
     <title>Homepage</title>
 </head>
 <body>
@@ -232,6 +233,17 @@
             </div>
     </div>
 </footer>
+
+<script>
+    if('serviceWorker' in navigator) {
+            navigator.serviceWorker
+            .register('./sw.js')
+            .then(function() {
+                console.log('Service worker registered!');
+            });
+        }
+</script>
+
 
 </body>
 </html>
